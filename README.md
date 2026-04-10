@@ -12,8 +12,6 @@ The project pulls service invoice data from a live MySQL database, cleans and se
 - 28,482 raw records spanning May 2017 – January 2019
 - 7 columns: invoice date, job card date, customer name, vehicle number, vehicle model, km reading, invoice line text
 
-> Note: Do not hardcode database credentials in the notebook. Use environment variables or a `.env` file and add it to `.gitignore`.
-
 ## Dataset Summary
 
 | Metric | Value |
